@@ -299,7 +299,7 @@ else: #high res display
 	x = 0
 	y = -10
 
-	if (current_price > 14.8):
+	if (current_price > 18.7):
 		draw.text((x, y), message, inky_display.RED, font)
 	else:
 		draw.text((x, y), message, inky_display.BLACK, font)
@@ -312,7 +312,7 @@ else: #high res display
 	w2, h2 = font.getsize(message)
 	x = right_column
 	y = 0
-	if (next_price > 14.8):
+	if (next_price > 18.7):
 		draw.text((x,y), message, inky_display.RED, font)
 	else:
 		draw.text((x, y), message, inky_display.BLACK, font)
@@ -324,7 +324,7 @@ else: #high res display
 	x = right_column
 	y = 23
 
-	if (nextp1_price > 14.8):
+	if (nextp1_price > 18.7):
 		draw.text((x,y), message, inky_display.RED, font)
 	else:
 		draw.text((x, y), message, inky_display.BLACK, font)
@@ -336,7 +336,7 @@ else: #high res display
 	x = right_column
 	y = 46
 
-	if (nextp2_price > 14.8):
+	if (nextp2_price > 18.7):
 		draw.text((x,y), message, inky_display.RED, font)
 	else:
 		draw.text((x, y), message, inky_display.BLACK, font)
