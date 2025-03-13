@@ -291,7 +291,7 @@ if (inky_display.WIDTH == 212): #low res display
 
 else: #high res display
 
-	font = ImageFont.truetype(FredokaOne, 72)
+	font = ImageFont.truetype(FredokaOne, 40)
 	message = "{0:.1f}".format(current_price) + "p"
 	w, h = font.getsize(message)
 	#x = (inky_display.WIDTH / 2) - (w / 2)
@@ -341,7 +341,7 @@ else: #high res display
 	else:
 		draw.text((x, y), message, inky_display.BLACK, font)
 
-	pixels_per_h = 2.3  # how many pixels 1p is worth
+	pixels_per_h = 1.5  # how many pixels 1p is worth
 	pixels_per_w = 3.5  # how many pixels 1/2 hour is worth
 	chart_base_loc = 121  # location of the bottom of the chart on screen in pixels
 	#chart_base_loc = 85  # location of the bottom of the chart on screen in pixels
